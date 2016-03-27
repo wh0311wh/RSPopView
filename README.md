@@ -16,7 +16,11 @@
 #import "RSPopViewHeader.h"
 ```
 
-遵守<RSCoverDelegate>协议
+遵守协议：
+```objective-c
+<RSCoverDelegate>
+}
+```
 
 实现协议方法（点击蒙板的时候调用）：
 ```objective-c
@@ -50,7 +54,16 @@
     menu.contentView = self.one.view;
 }
 ```
-## 作者信息
-hehai（hehai682@126.com）
+##作者信息：
+
+he hai, hehai682@126.com
+
+##License：
+
+RSWeatherForecast is available under the MIT license. See the LICENSE file for more info.
+
+##后记：
+
+------------>>>>>>>>>>> 人生无非是笑笑人家，再被人家笑笑而已...<<<<<<<<<<<<--------------
 
 
