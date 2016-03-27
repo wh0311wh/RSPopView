@@ -12,6 +12,7 @@
 
 @implementation RSCover
 
+// 设置浅灰色蒙板
 - (void)setDimBackground:(BOOL)dimBackground {
     _dimBackground = dimBackground;
     
@@ -24,7 +25,7 @@
     }
 }
 
-#warning Bug 要返回值干什么？
+// 创建蒙板
 + (instancetype)show {
     RSCover *cover = [[RSCover alloc] initWithFrame:[UIScreen mainScreen].bounds];
     cover.backgroundColor = [UIColor clearColor];

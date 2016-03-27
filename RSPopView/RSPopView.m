@@ -21,6 +21,7 @@
     return self;
 }
 
+// 创建并显示
 + (instancetype)showInRect:(CGRect)rect withLocation:(RSLocation)location {
     RSPopView *menu = [[self alloc] initWithFrame:rect];
     menu.userInteractionEnabled = YES;
@@ -43,6 +44,7 @@
     return menu;
 }
 
+// 隐藏
 + (void)hide {
     for (UIView *popMenu in RSKeyWindow.subviews) {
         if ([popMenu isKindOfClass:[self class]]) {

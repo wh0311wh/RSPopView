@@ -22,7 +22,6 @@
 
 @end
 
-
 @interface RSCover : UIView
 
 @property (nonatomic, weak) id<RSCoverDelegate> delegate;

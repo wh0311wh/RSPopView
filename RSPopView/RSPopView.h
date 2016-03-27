@@ -26,16 +26,13 @@ typedef NS_ENUM(NSInteger, RSLocation) {
 @property (nonatomic, weak) UIButton *bottomBtn;
 
 /**
- * 设置PopView的位置
- * 左、中、右
+ * 设置PopView的位置：左、中、右
  */
 @property (nonatomic, assign) RSLocation location;
 /**
  * 是否有底部的按钮
  */
 @property (nonatomic, assign) BOOL hasBottom;
-
-#pragma mark - 显示或隐藏PopView
 
 /**
  * 显示弹出菜单
