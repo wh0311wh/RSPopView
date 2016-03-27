@@ -12,19 +12,6 @@
 
 @implementation RSCover
 
-// 设置浅灰色蒙板
-- (void)setDimBackground:(BOOL)dimBackground {
-    _dimBackground = dimBackground;
-    
-    if (dimBackground) {
-        self.backgroundColor = [UIColor blackColor];
-        self.alpha = 0.5;
-    } else {
-        self.backgroundColor = [UIColor clearColor];
-        self.alpha = 1;
-    }
-}
-
 // 创建蒙板
 + (instancetype)show {
     RSCover *cover = [[RSCover alloc] initWithFrame:[UIScreen mainScreen].bounds];

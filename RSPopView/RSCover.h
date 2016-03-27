@@ -27,10 +27,6 @@
 @property (nonatomic, weak) id<RSCoverDelegate> delegate;
 
 /**
- * 设置浅灰色模板
- */
-@property (nonatomic, assign) BOOL dimBackground;
-/**
  * 显示模板
  */
 + (instancetype)show;
