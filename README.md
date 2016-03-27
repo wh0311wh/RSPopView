@@ -1,6 +1,14 @@
 ## RSPopView
 自己封装的PopView控件
 
+## 效果图
+中间
+![Mou icon](https://github.com/riversea2015/RSPopView/blob/master/ScreenShot/shot1.png?raw=true)
+右侧
+![Mou icon](https://github.com/riversea2015/RSPopView/blob/master/ScreenShot/shot2.png?raw=true)
+左侧
+![Mou icon](https://github.com/riversea2015/RSPopView/blob/master/ScreenShot/shot3.png?raw=true)
+
 ## 使用方法
 
 将RSPopView文件夹中的5个文件导入工程，在需要用到PopView的控制器中导入头文件：
