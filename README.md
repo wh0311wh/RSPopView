@@ -60,7 +60,7 @@ he hai, hehai682@126.com
 
 ##License：
 
-RSWeatherForecast is available under the MIT license. See the LICENSE file for more info.
+RSPopView is available under the MIT license. See the LICENSE file for more info.
 
 ##后记：
 
