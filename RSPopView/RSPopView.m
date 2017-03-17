@@ -7,6 +7,7 @@
 //
 
 #import "RSPopView.h"
+#import "UIImage+RSImage.h"
 
 #define BottomBtnH 30
 #define RSKeyWindow [UIApplication sharedApplication].keyWindow
@@ -81,8 +82,8 @@
     CGFloat margin = 5;
     CGFloat y = 9 + margin;
     CGFloat x = margin;
-    CGFloat w = self.width - 2 * margin;
-    CGFloat h = self.height - y - 2 * margin;
+    CGFloat w = self.frame.size.width - 2 * margin;
+    CGFloat h = self.frame.size.height - y - 2 * margin;
     
     if (self.bottomBtn) { // 如果存在底部按钮
         h -= BottomBtnH;
@@ -96,7 +97,7 @@
     // 计算popView底部按钮的尺寸
     CGFloat BottomBtnW = w - 2 * margin;
     CGFloat BottomBtnX = x + margin;
-    CGFloat BottomBtnY = self.height - BottomBtnH  - 7;
+    CGFloat BottomBtnY = self.frame.size.height - BottomBtnH  - 7;
     _bottomBtn.frame = CGRectMake(BottomBtnX, BottomBtnY, BottomBtnW, BottomBtnH);
 }
 
