@@ -105,6 +105,7 @@ Pod::Spec.new do |s|
 
   # s.resource  = "icon.png"
   # s.resources = "Resources/*.png"
+  s.resources = "DemoForRSPopView/**/*.xcassets"
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 

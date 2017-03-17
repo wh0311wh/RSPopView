@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		49E4917357DA081321098CB9 /* libPods-DemoForRSPopView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BE673B968B787738C519F928 /* libPods-DemoForRSPopView.a */; };
 		4C7F61561E7C42F6009C212E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C7F61551E7C42F6009C212E /* main.m */; };
 		4C7F61591E7C42F6009C212E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C7F61581E7C42F6009C212E /* AppDelegate.m */; };
 		4C7F615C1E7C42F6009C212E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C7F615B1E7C42F6009C212E /* ViewController.m */; };
@@ -51,6 +52,9 @@
 		4C7F61751E7C42F6009C212E /* DemoForRSPopViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoForRSPopViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C7F61791E7C42F6009C212E /* DemoForRSPopViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoForRSPopViewUITests.m; sourceTree = "<group>"; };
 		4C7F617B1E7C42F6009C212E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6425E7D88FE10AC08D443AD8 /* Pods-DemoForRSPopView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoForRSPopView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DemoForRSPopView/Pods-DemoForRSPopView.debug.xcconfig"; sourceTree = "<group>"; };
+		666B01F56D8C27EC8FB7B0CE /* Pods-DemoForRSPopView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoForRSPopView.release.xcconfig"; path = "Pods/Target Support Files/Pods-DemoForRSPopView/Pods-DemoForRSPopView.release.xcconfig"; sourceTree = "<group>"; };
+		BE673B968B787738C519F928 /* libPods-DemoForRSPopView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DemoForRSPopView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49E4917357DA081321098CB9 /* libPods-DemoForRSPopView.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +83,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		21ECC64350FEF42ADEBACAC1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6425E7D88FE10AC08D443AD8 /* Pods-DemoForRSPopView.debug.xcconfig */,
+				666B01F56D8C27EC8FB7B0CE /* Pods-DemoForRSPopView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		4C7F61481E7C42F6009C212E = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +99,8 @@
 				4C7F616D1E7C42F6009C212E /* DemoForRSPopViewTests */,
 				4C7F61781E7C42F6009C212E /* DemoForRSPopViewUITests */,
 				4C7F61521E7C42F6009C212E /* Products */,
+				21ECC64350FEF42ADEBACAC1 /* Pods */,
+				824647B2A227A2AA259A6CB8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -140,6 +156,14 @@
 			path = DemoForRSPopViewUITests;
 			sourceTree = "<group>";
 		};
+		824647B2A227A2AA259A6CB8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BE673B968B787738C519F928 /* libPods-DemoForRSPopView.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +171,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4C7F617E1E7C42F6009C212E /* Build configuration list for PBXNativeTarget "DemoForRSPopView" */;
 			buildPhases = (
+				C2CCA86911DEF1F192B766E7 /* [CP] Check Pods Manifest.lock */,
 				4C7F614D1E7C42F6009C212E /* Sources */,
 				4C7F614E1E7C42F6009C212E /* Frameworks */,
 				4C7F614F1E7C42F6009C212E /* Resources */,
+				05DDDFEB97DE57B8148DDD01 /* [CP] Embed Pods Frameworks */,
+				A7F08E0C77900E9BB94564B3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -267,6 +294,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		05DDDFEB97DE57B8148DDD01 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DemoForRSPopView/Pods-DemoForRSPopView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A7F08E0C77900E9BB94564B3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DemoForRSPopView/Pods-DemoForRSPopView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C2CCA86911DEF1F192B766E7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4C7F614D1E7C42F6009C212E /* Sources */ = {
@@ -422,6 +497,7 @@
 		};
 		4C7F617F1E7C42F6009C212E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6425E7D88FE10AC08D443AD8 /* Pods-DemoForRSPopView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DemoForRSPopView/Info.plist;
@@ -433,6 +509,7 @@
 		};
 		4C7F61801E7C42F6009C212E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 666B01F56D8C27EC8FB7B0CE /* Pods-DemoForRSPopView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DemoForRSPopView/Info.plist;
