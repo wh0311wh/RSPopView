@@ -9,8 +9,11 @@
 左侧
 ![Mou icon](https://github.com/riversea2015/RSPopView/blob/master/ScreenShot/shot3.png?raw=true)
 
-## 使用方法
+## 使用方法1 CocoaPods
 
+pod 'RSPopView', '~> 0.0.1'
+
+## 使用方法2 直接拖拽文件
 将RSPopView文件夹中的5个文件导入工程，在需要用到PopView的控制器中导入头文件：
 ```objective-c
 #import "RSPopViewHeader.h"
@@ -54,16 +57,10 @@
     menu.contentView = self.one.view;
 }
 ```
-##作者信息：
+## 作者信息：
 
 he hai, hehai682@126.com
 
-##License：
+## License：
 
 RSPopView is available under the MIT license. See the LICENSE file for more info.
-
-##后记：
-
------------->>>>>>>>>>> 人生无非是笑笑人家，再被人家笑笑而已...<<<<<<<<<<<<--------------
-
-
