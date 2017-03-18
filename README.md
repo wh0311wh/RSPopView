@@ -23,7 +23,7 @@ pod 'RSPopView', '~> 0.0.3'
 #import <RSPopView/RSPopViewHeader.h>
 ```
 
-第二种方法；直接将RSPopView文件夹中的多个文件导入工程，在需要用到PopView的控制器中导入头文件：
+第二种方法；直接将RSPopView文件夹中的多个文件拖到工程里，在需要用到PopView的控制器中导入头文件：
 
 ```objective-c
 #import "RSPopViewHeader.h"
