@@ -1,7 +1,7 @@
 ## RSPopView
 自己封装的PopView控件
 
-## 效果图
+## 实际使用效果图
 中间
 ![Mou icon](https://github.com/riversea2015/RSPopView/blob/master/ScreenShot/shot1.png?raw=true)
 右侧
@@ -9,15 +9,25 @@
 左侧
 ![Mou icon](https://github.com/riversea2015/RSPopView/blob/master/ScreenShot/shot3.png?raw=true)
 
-## 使用方法1 CocoaPods
+## 使用方法
+1.导入
+第一种方法：使用 CocoaPods 导入，Podfiles中可以这样写：
 
-pod 'RSPopView', '~> 0.0.1'
+```objective-c
+pod 'RSPopView', '~> 0.0.3'
+```
+但是导入头文件时，需要使用导入系统头文件的方法
 
-## 使用方法2 直接拖拽文件
-将RSPopView文件夹中的5个文件导入工程，在需要用到PopView的控制器中导入头文件：
+```objective-c
+#import <RSPopView/RSPopViewHeader.h>
+```
+
+第二种方法；直接将RSPopView文件夹中的多个文件导入工程，在需要用到PopView的控制器中导入头文件：
+
 ```objective-c
 #import "RSPopViewHeader.h"
 ```
+2.使用
 
 遵守协议：
 ```objective-c
